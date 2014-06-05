@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'haml'
 require 'nomic'
+require 'json'
 
 class Nomic::App < Sinatra::Base
   use Rack::CommonLogger
@@ -8,8 +9,8 @@ class Nomic::App < Sinatra::Base
   set :public, File.join(Nomic::ROOT_PATH, "public")
 
   post '/payload' do
-    puts "Request: #{params}"
-    params
+    data = JSON.parse request.body.read
+    data.to_json.to_s
   end
 
   get '/' do
