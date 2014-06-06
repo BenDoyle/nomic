@@ -7,6 +7,10 @@ class Nomic::Rule
     @issue_comment = issue_comment
   end
 
+  def valid_issue?
+    @issue_comment.key?("issue") && @issue_comment.key?("comment")
+  end
+
   def name
     self.class.to_s
   end
