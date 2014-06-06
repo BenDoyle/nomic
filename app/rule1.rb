@@ -3,3 +3,6 @@ class Rule1 < Nomic::Rule
     true
   end
 end
+
+
+
