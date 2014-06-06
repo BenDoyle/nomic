@@ -7,6 +7,7 @@ require 'httparty'
 require 'octokit'
 
 class Nomic::App < Sinatra::Base
+  include GithubHelper
   use Rack::CommonLogger
   set :views, File.join(Nomic::ROOT_PATH, "views")
   #set :public, File.join(Nomic::ROOT_PATH, "public")
