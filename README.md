@@ -6,11 +6,11 @@
 
 3. Deploy the code to a Heroku app
 
-4. Test Github webhooks can post to Heroku app
+~4. Test Github webhooks can post to Heroku app~
 
-5. Test that Heroku app can deploy itself based
+~5. Test that Heroku app can deploy itself based~
 
-6. Write the rules for self-deployment
+~6. Write the rules for self-deployment~
 
 
 
