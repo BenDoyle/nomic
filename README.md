@@ -1,16 +1,16 @@
-# Essential Hurdles to creation:
+### Essential Hurdles to creation:
 
 1. Setup a Github organisation with the "Players" belonging to a readonly team.
 2. Fork the base nomic Github repo into the organization
 3. Deploy the code to a Heroku app
 
-# Reference For Rules And Principles
+### Reference For Rules And Principles
 
 http://legacy.earlham.edu/~peters/writing/nomic.htm#initial%20set
 
-# Nomic Initial Set of Rules
+### Nomic Initial Set of Rules
 
-## Immutable Rules ("100's")
+#### Immutable Rules ("100's")
 
 101. All players must always abide by all the rules then in effect, in the form in which they are then in effect. The rules in the Initial Set are in effect whenever a game begins. The Initial Set consists of Rules 101-116 (immutable) and 201-213 (mutable).
 
